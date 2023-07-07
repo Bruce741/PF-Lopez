@@ -142,6 +142,14 @@ a {
     }
 }
 
+.Publicidad {
+    margin: 10px;
+    height: 20vh;
+    background-image: url(../Media/Publicidad.jpg);
+    overflow: auto;
+    background-repeat: round;
+}
+
 /* Conocenos */
 
 .Form-Fondo {
@@ -149,6 +157,6 @@ a {
 }
 
 .VideoConocenos {
-    width: 100%;
+    width: 75%;
 }
 

@@ -123,13 +123,21 @@ a {
   width: 100%;
 }
 
+.Publicidad {
+  margin: 10px;
+  height: 20vh;
+  background-image: url(../Media/Publicidad.jpg);
+  overflow: auto;
+  background-repeat: round;
+}
+
 /* Conocenos */
 .Form-Fondo {
   background-color: #78918f;
 }
 
 .VideoConocenos {
-  width: 100%;
+  width: 75%;
 }
 
 /** Local Grid (DESKTOP) **/
@@ -149,6 +157,8 @@ a {
   }
   .Iframe-Local {
     grid-area: Iframe;
+    height: 400px;
+    padding: 10px;
   }
 }
 /* Imagenes Responsive*/
