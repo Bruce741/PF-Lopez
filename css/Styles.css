@@ -53,9 +53,14 @@ a {
   display: flex;
   border: solid 1px black;
   justify-content: center;
+  align-items: center;
 }
-.Cuenta-Div .Cuenta-Div a {
+.Cuenta-Div .Cuenta-Div p {
+  text-decoration: none;
   color: black;
+}
+.Cuenta-Div p:hover {
+  cursor: pointer;
 }
 
 .navbar {
@@ -92,6 +97,10 @@ a {
 .Separador {
   background-color: #dbb7b7;
   height: 2rem;
+}
+
+.MetodosPagoDiv div p {
+  margin-bottom: 0;
 }
 
 /* CONTACTO */
@@ -159,6 +168,9 @@ a {
     grid-area: Iframe;
     height: 400px;
     padding: 10px;
+  }
+  .Cuenta-Div p {
+    font-size: 2rem;
   }
 }
 /* Imagenes Responsive*/

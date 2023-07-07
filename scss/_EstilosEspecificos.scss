@@ -66,8 +66,13 @@ a {
     display: flex;
     border: $Borde;
     justify-content: center;
-    .Cuenta-Div a{
-        color: $Negro;
+    align-items: center;
+    .Cuenta-Div p{
+        text-decoration: none;
+        color: black;
+    }
+    p:hover {
+        cursor: pointer;
     }
 }
 
@@ -107,6 +112,14 @@ a {
 .Separador {
     background-color: #dbb7b7;
     height: 2rem;
+}
+
+.MetodosPagoDiv {
+    div {
+        p {
+            margin-bottom: 0;
+        }
+    }
 }
 
 /* CONTACTO */
